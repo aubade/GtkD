@@ -591,6 +591,7 @@ public class Widget : ObjectGtk, BuildableIF
 	{
 		// void gtk_widget_destroy (GtkWidget *widget);
 		gtk_widget_destroy(gtkWidget);
+		connectedSignals = null;
 		setStruct(null);
 	}
 	
